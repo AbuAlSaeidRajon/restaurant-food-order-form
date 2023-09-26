@@ -38,3 +38,9 @@ button {
 button:hover {
     background-color: #0c7cd1;
 }
+
+#orderSummary {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
