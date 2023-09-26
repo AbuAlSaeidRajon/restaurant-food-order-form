@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food Order Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Food Order Form</h1>
+        <form id="orderForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="food">Select Food:</label>
+                <select id="food">
+                    <option value="burger">Burger</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="pasta">Pasta</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Place Order</button>
+            </div>
+        </form>
+        <div id="orderSummary"></div>
+    </div>
+    
+</body>
+</html>
